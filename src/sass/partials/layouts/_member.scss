@@ -35,18 +35,20 @@
   .profile-content {
     background-color: yellow;
     flex: 3 1 auto;
-    .section {
-        display: flex;
-        flex-direction: column;
-        .skills {
-            flex: 1 1 auto;
-        }
-        .about {
-            flex: 1 1 auto;
-        }
-        .blogs {
-            flex: 1 1 auto;
-        }
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    .skills {
+      flex: 1 1 auto;
+      background-color: lawngreen;
+    }
+    .about {
+      flex: 2 1 auto;
+      background-color: #ff4555;
+    }
+    .blogs {
+      flex: 1.3 1 auto;
+      background-color: #1f4555;
     }
   }
 

@@ -15,9 +15,9 @@ const Member = props => (
             <div className="quote">quote</div>
           </div>
           <div className="profile-content">
-            <div className="section skills">Skills</div>
-            <div className="section about">About</div>
-            <div className="section blogs">Blogs</div>
+            <div className="skills">Skills</div>
+            <div className="about">About</div>
+            <div className="blogs">Blogs</div>
           </div>
         </div>
       </div>

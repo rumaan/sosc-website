@@ -1,5 +1,5 @@
 .profile-container {
-  background: red;
+  // background: red;
   width: 100%;
   height: calc(100vh - 10px);
   display: flex;
@@ -8,47 +8,104 @@
   align-items: stretch;
   // grid-template-columns: 0.4fr 1fr;
 
+  background: #fff;
+
+  .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5em;
+    div {
+      height: 25px;
+      width: 25px;
+      background-color: red;
+      margin: 5px;
+    }
+  }
+
   .profile-details {
-    background-color: black;
-    flex: 1 1 auto;
+    // flex: 1 1 0;
+    width: 30%;
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    .avatar {
-      flex: 1 1 auto;
-      background-color: aqua;
+    border-right: 2px solid rgba(0, 0, 0, 0.12);
+    border-right-style: outset;
+    margin: 3.2em 0em 0em 0em;
+    justify-content: flex-start;
+
+    .avatar-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      img {
+        border-radius: 50%;
+        object-fit: cover;
+        // border: 2px solid darken($color: #08d777, $amount: 5%);
+        max-width: 55%;
+       
+      }
+      // text-align: center;
+      .avatar-details {
+        p {
+          color: grey;
+          margin: 0;
+          font-size: 95%;
+        }
+        h4 {
+          margin: 1rem 0.5rem 0.8rem 0.5rem;
+        }
+      }
+    }
+
+    @media #{$media-mobile} {
+      border-right: none;
+      flex-direction: column;
+      width: 100%;
+    }
+    @media #{$media-small} {
+      border-right: none;
+      flex-direction: column;
+      width: 100%;
+    }
+
+    .avatar-container {
+      flex: 0 1 auto;
+      // background-color: aqua;
     }
     .links {
       flex: 1 1 auto;
-      background-color: blue;
+      // background-color: blue;
     }
     .random-info {
       flex: 1 1 auto;
-      background-color: green;
+      // background-color: green;
     }
     .quote {
       flex: 1 1 auto;
-      background-color: red;
+      // background-color: red;
     }
   }
 
   .profile-content {
-    background-color: yellow;
+    // background-color: yellow;
     flex: 3 1 auto;
     display: flex;
     flex-direction: column;
     align-items: stretch;
     .skills {
       flex: 1 1 auto;
-      background-color: lawngreen;
+      // background-color: lawngreen;
     }
     .about {
       flex: 2 1 auto;
-      background-color: #ff4555;
+      // background-color: #ff4555;
     }
     .blogs {
       flex: 1.3 1 auto;
-      background-color: #1f4555;
+      // background-color: #1f4555;
     }
   }
 

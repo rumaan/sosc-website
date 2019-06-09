@@ -11,7 +11,7 @@ feedback_link: https://goo.gl/forms/Ro6J3CI8oX1zbqZo2
 ABC in Python (Anybody can Code in Python) is an introductory python workshop conducted in collaboration with Mozilla campus club and SOSWC.This workshop will help you in getting started with python programming. This workshop is for the beginners hence you do not need to have any prior programming knowledge. 
 To register [click here](https://goo.gl/forms/4QAuyyW1AuBWIgrg2).
 
-##Prerequistie
+##Prerequisites
 - Laptop
 - Python 3 installed
 Follow [this link](https://realpython.com/installing-python/
